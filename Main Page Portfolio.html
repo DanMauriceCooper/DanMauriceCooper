@@ -1,0 +1,185 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01//EN" "http://www.w3.org/TR/html4/strict.dtd">
+<html>
+<head>
+  <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+  <meta http-equiv="Content-Style-Type" content="text/css">
+  <title></title>
+  <meta name="Generator" content="Cocoa HTML Writer">
+  <meta name="CocoaVersion" content="2575.7">
+  <style type="text/css">
+    p.p1 {margin: 0.0px 0.0px 0.0px 0.0px; font: 12.0px Helvetica}
+    p.p2 {margin: 0.0px 0.0px 0.0px 0.0px; font: 12.0px Helvetica; min-height: 14.0px}
+  </style>
+</head>
+<body>
+<p class="p1">&lt;!DOCTYPE html&gt;</p>
+<p class="p1">&lt;html lang="en"&gt;</p>
+<p class="p1">&lt;head&gt;</p>
+<p class="p1"><span class="Apple-converted-space">    </span>&lt;meta charset="UTF-8"&gt;</p>
+<p class="p1"><span class="Apple-converted-space">    </span>&lt;meta name="viewport" content="width=device-width, initial-scale=1.0"&gt;</p>
+<p class="p1"><span class="Apple-converted-space">    </span>&lt;title&gt;Daniel Cooper&lt;/title&gt;</p>
+<p class="p1"><span class="Apple-converted-space">    </span>&lt;style&gt;</p>
+<p class="p1"><span class="Apple-converted-space">        </span>* {</p>
+<p class="p1"><span class="Apple-converted-space">            </span>margin: 0;</p>
+<p class="p1"><span class="Apple-converted-space">            </span>padding: 0;</p>
+<p class="p1"><span class="Apple-converted-space">            </span>box-sizing: border-box;</p>
+<p class="p1"><span class="Apple-converted-space">        </span>}</p>
+<p class="p2"><br></p>
+<p class="p1"><span class="Apple-converted-space">        </span>body {</p>
+<p class="p1"><span class="Apple-converted-space">            </span>background-color: white;</p>
+<p class="p1"><span class="Apple-converted-space">            </span>font-family: Arial, Helvetica, sans-serif;</p>
+<p class="p1"><span class="Apple-converted-space">            </span>padding: 40px 60px;</p>
+<p class="p1"><span class="Apple-converted-space">        </span>}</p>
+<p class="p2"><br></p>
+<p class="p1"><span class="Apple-converted-space">        </span>.header {</p>
+<p class="p1"><span class="Apple-converted-space">            </span>display: flex;</p>
+<p class="p1"><span class="Apple-converted-space">            </span>justify-content: center;</p>
+<p class="p1"><span class="Apple-converted-space">            </span>align-items: center;</p>
+<p class="p1"><span class="Apple-converted-space">            </span>margin-bottom: 80px;</p>
+<p class="p1"><span class="Apple-converted-space">            </span>height: 100px;</p>
+<p class="p1"><span class="Apple-converted-space">        </span>}</p>
+<p class="p2"><br></p>
+<p class="p1"><span class="Apple-converted-space">        </span>.name-container {</p>
+<p class="p1"><span class="Apple-converted-space">            </span>position: relative;</p>
+<p class="p1"><span class="Apple-converted-space">            </span>width: 200px;</p>
+<p class="p1"><span class="Apple-converted-space">            </span>height: 80px;</p>
+<p class="p1"><span class="Apple-converted-space">        </span>}</p>
+<p class="p2"><br></p>
+<p class="p1"><span class="Apple-converted-space">        </span>.name-part {</p>
+<p class="p1"><span class="Apple-converted-space">            </span>position: absolute;</p>
+<p class="p1"><span class="Apple-converted-space">            </span>font-size: 32px;</p>
+<p class="p1"><span class="Apple-converted-space">            </span>font-weight: bold;</p>
+<p class="p1"><span class="Apple-converted-space">            </span>letter-spacing: 1px;</p>
+<p class="p1"><span class="Apple-converted-space">        </span>}</p>
+<p class="p2"><br></p>
+<p class="p1"><span class="Apple-converted-space">        </span>.daniel {</p>
+<p class="p1"><span class="Apple-converted-space">            </span>transform: rotate(-35deg);</p>
+<p class="p1"><span class="Apple-converted-space">            </span>transform-origin: right center;</p>
+<p class="p1"><span class="Apple-converted-space">            </span>right: 50%;</p>
+<p class="p1"><span class="Apple-converted-space">            </span>top: 50%;</p>
+<p class="p1"><span class="Apple-converted-space">            </span>margin-right: 5px;</p>
+<p class="p1"><span class="Apple-converted-space">        </span>}</p>
+<p class="p2"><br></p>
+<p class="p1"><span class="Apple-converted-space">        </span>.cooper {</p>
+<p class="p1"><span class="Apple-converted-space">            </span>transform: rotate(35deg);</p>
+<p class="p1"><span class="Apple-converted-space">            </span>transform-origin: left center;</p>
+<p class="p1"><span class="Apple-converted-space">            </span>left: 50%;</p>
+<p class="p1"><span class="Apple-converted-space">            </span>top: 50%;</p>
+<p class="p1"><span class="Apple-converted-space">            </span>margin-left: 5px;</p>
+<p class="p1"><span class="Apple-converted-space">        </span>}</p>
+<p class="p2"><br></p>
+<p class="p1"><span class="Apple-converted-space">        </span>.gallery {</p>
+<p class="p1"><span class="Apple-converted-space">            </span>display: grid;</p>
+<p class="p1"><span class="Apple-converted-space">            </span>grid-template-columns: repeat(2, 1fr);</p>
+<p class="p1"><span class="Apple-converted-space">            </span>gap: 40px;</p>
+<p class="p1"><span class="Apple-converted-space">            </span>max-width: 1200px;</p>
+<p class="p1"><span class="Apple-converted-space">            </span>margin: 0 auto;</p>
+<p class="p1"><span class="Apple-converted-space">        </span>}</p>
+<p class="p2"><br></p>
+<p class="p1"><span class="Apple-converted-space">        </span>.project {</p>
+<p class="p1"><span class="Apple-converted-space">            </span>text-decoration: none;</p>
+<p class="p1"><span class="Apple-converted-space">            </span>color: black;</p>
+<p class="p1"><span class="Apple-converted-space">            </span>display: block;</p>
+<p class="p1"><span class="Apple-converted-space">        </span>}</p>
+<p class="p2"><br></p>
+<p class="p1"><span class="Apple-converted-space">        </span>.project-image {</p>
+<p class="p1"><span class="Apple-converted-space">            </span>width: 100%;</p>
+<p class="p1"><span class="Apple-converted-space">            </span>aspect-ratio: 3/2;</p>
+<p class="p1"><span class="Apple-converted-space">            </span>background-color: #f5f5f5;</p>
+<p class="p1"><span class="Apple-converted-space">            </span>margin-bottom: 15px;</p>
+<p class="p1"><span class="Apple-converted-space">            </span>display: flex;</p>
+<p class="p1"><span class="Apple-converted-space">            </span>align-items: center;</p>
+<p class="p1"><span class="Apple-converted-space">            </span>justify-content: center;</p>
+<p class="p1"><span class="Apple-converted-space">            </span>overflow: hidden;</p>
+<p class="p1"><span class="Apple-converted-space">            </span>transition: opacity 0.3s ease;</p>
+<p class="p1"><span class="Apple-converted-space">        </span>}</p>
+<p class="p2"><br></p>
+<p class="p1"><span class="Apple-converted-space">        </span>.project:hover .project-image {</p>
+<p class="p1"><span class="Apple-converted-space">            </span>opacity: 0.8;</p>
+<p class="p1"><span class="Apple-converted-space">        </span>}</p>
+<p class="p2"><br></p>
+<p class="p1"><span class="Apple-converted-space">        </span>.logo {</p>
+<p class="p1"><span class="Apple-converted-space">            </span>max-width: 60%;</p>
+<p class="p1"><span class="Apple-converted-space">            </span>max-height: 60%;</p>
+<p class="p1"><span class="Apple-converted-space">            </span>object-fit: contain;</p>
+<p class="p1"><span class="Apple-converted-space">        </span>}</p>
+<p class="p2"><br></p>
+<p class="p1"><span class="Apple-converted-space">        </span>.project-title {</p>
+<p class="p1"><span class="Apple-converted-space">            </span>font-size: 14px;</p>
+<p class="p1"><span class="Apple-converted-space">            </span>font-weight: normal;</p>
+<p class="p1"><span class="Apple-converted-space">            </span>letter-spacing: 0.3px;</p>
+<p class="p1"><span class="Apple-converted-space">            </span>text-align: center;</p>
+<p class="p1"><span class="Apple-converted-space">        </span>}</p>
+<p class="p2"><br></p>
+<p class="p1"><span class="Apple-converted-space">        </span>@media (max-width: 768px) {</p>
+<p class="p1"><span class="Apple-converted-space">            </span>body {</p>
+<p class="p1"><span class="Apple-converted-space">                </span>padding: 30px 20px;</p>
+<p class="p1"><span class="Apple-converted-space">            </span>}</p>
+<p class="p2"><br></p>
+<p class="p1"><span class="Apple-converted-space">            </span>.gallery {</p>
+<p class="p1"><span class="Apple-converted-space">                </span>grid-template-columns: 1fr;</p>
+<p class="p1"><span class="Apple-converted-space">                </span>gap: 30px;</p>
+<p class="p1"><span class="Apple-converted-space">            </span>}</p>
+<p class="p2"><br></p>
+<p class="p1"><span class="Apple-converted-space">            </span>.header {</p>
+<p class="p1"><span class="Apple-converted-space">                </span>margin-bottom: 50px;</p>
+<p class="p1"><span class="Apple-converted-space">            </span>}</p>
+<p class="p1"><span class="Apple-converted-space">        </span>}</p>
+<p class="p1"><span class="Apple-converted-space">    </span>&lt;/style&gt;</p>
+<p class="p1">&lt;/head&gt;</p>
+<p class="p1">&lt;body&gt;</p>
+<p class="p1"><span class="Apple-converted-space">    </span>&lt;div class="header"&gt;</p>
+<p class="p1"><span class="Apple-converted-space">        </span>&lt;div class="name-container"&gt;</p>
+<p class="p1"><span class="Apple-converted-space">            </span>&lt;span class="name-part daniel"&gt;DANIEL&lt;/span&gt;</p>
+<p class="p1"><span class="Apple-converted-space">            </span>&lt;span class="name-part cooper"&gt;COOPER&lt;/span&gt;</p>
+<p class="p1"><span class="Apple-converted-space">        </span>&lt;/div&gt;</p>
+<p class="p1"><span class="Apple-converted-space">    </span>&lt;/div&gt;</p>
+<p class="p2"><span class="Apple-converted-space">    </span></p>
+<p class="p1"><span class="Apple-converted-space">    </span>&lt;div class="gallery"&gt;</p>
+<p class="p1"><span class="Apple-converted-space">        </span>&lt;a href="https://danmauricecooper.github.io/google_lens_mixed_methods.html/" class="project" target="_blank"&gt;</p>
+<p class="p1"><span class="Apple-converted-space">            </span>&lt;div class="project-image"&gt;</p>
+<p class="p1"><span class="Apple-converted-space">                </span>&lt;svg class="logo" viewBox="0 0 300 200" xmlns="http://www.w3.org/2000/svg"&gt;</p>
+<p class="p1"><span class="Apple-converted-space">                    </span>&lt;!-- Google Lens Icon --&gt;</p>
+<p class="p1"><span class="Apple-converted-space">                    </span>&lt;g transform="translate(150, 50)"&gt;</p>
+<p class="p1"><span class="Apple-converted-space">                        </span>&lt;!-- Rounded square frame with Google colors --&gt;</p>
+<p class="p1"><span class="Apple-converted-space">                        </span>&lt;!-- Top segment (yellow to red gradient) --&gt;</p>
+<p class="p1"><span class="Apple-converted-space">                        </span>&lt;path d="M -40,-40 L 20,-40 L 20,-30 L -30,-30 L -30,20 L -40,20 Z" fill="#FBBC05"/&gt;</p>
+<p class="p1"><span class="Apple-converted-space">                        </span>&lt;path d="M 20,-40 L 40,-40 Q 50,-40 50,-30 L 50,-30 L 40,-30 L 40,-35 Q 40,-40 35,-40 L 20,-40 Z" fill="#EA4335"/&gt;</p>
+<p class="p2"><span class="Apple-converted-space">                        </span></p>
+<p class="p1"><span class="Apple-converted-space">                        </span>&lt;!-- Right segment (red) --&gt;</p>
+<p class="p1"><span class="Apple-converted-space">                        </span>&lt;path d="M 40,20 L 50,20 L 50,-30 Q 50,-40 40,-40 L 40,-30 Q 40,-35 40,-30 L 40,20 Z" fill="#EA4335"/&gt;</p>
+<p class="p2"><span class="Apple-converted-space">                        </span></p>
+<p class="p1"><span class="Apple-converted-space">                        </span>&lt;!-- Bottom right segment (green) --&gt;</p>
+<p class="p1"><span class="Apple-converted-space">                        </span>&lt;path d="M 40,20 L 40,40 Q 40,50 30,50 L 20,50 L 20,40 L 30,40 Q 35,40 35,35 L 35,20 L 40,20 Z" fill="#34A853"/&gt;</p>
+<p class="p2"><span class="Apple-converted-space">                        </span></p>
+<p class="p1"><span class="Apple-converted-space">                        </span>&lt;!-- Left segment (partial red on top) --&gt;</p>
+<p class="p1"><span class="Apple-converted-space">                        </span>&lt;path d="M -40,-40 L -30,-40 L -30,-30 L -40,-30 Z" fill="#EA4335"/&gt;</p>
+<p class="p2"><span class="Apple-converted-space">                        </span></p>
+<p class="p1"><span class="Apple-converted-space">                        </span>&lt;!-- Blue circle --&gt;</p>
+<p class="p1"><span class="Apple-converted-space">                        </span>&lt;circle cx="0" cy="0" r="18" fill="#4285F4"/&gt;</p>
+<p class="p2"><span class="Apple-converted-space">                        </span></p>
+<p class="p1"><span class="Apple-converted-space">                        </span>&lt;!-- Green small circle --&gt;</p>
+<p class="p1"><span class="Apple-converted-space">                        </span>&lt;circle cx="15" cy="15" r="8" fill="#34A853"/&gt;</p>
+<p class="p1"><span class="Apple-converted-space">                    </span>&lt;/g&gt;</p>
+<p class="p2"><span class="Apple-converted-space">                    </span></p>
+<p class="p1"><span class="Apple-converted-space">                    </span>&lt;!-- Google Lens text --&gt;</p>
+<p class="p1"><span class="Apple-converted-space">                    </span>&lt;text x="150" y="140" font-family="Arial, sans-serif" font-size="32" font-weight="bold" fill="#000000" text-anchor="middle"&gt;Google Lens&lt;/text&gt;</p>
+<p class="p1"><span class="Apple-converted-space">                </span>&lt;/svg&gt;</p>
+<p class="p1"><span class="Apple-converted-space">            </span>&lt;/div&gt;</p>
+<p class="p1"><span class="Apple-converted-space">            </span>&lt;div class="project-title"&gt;Google Lens, live translation&lt;/div&gt;</p>
+<p class="p1"><span class="Apple-converted-space">        </span>&lt;/a&gt;</p>
+<p class="p2"><br></p>
+<p class="p1"><span class="Apple-converted-space">        </span>&lt;a href="https://danmauricecooper.github.io/pret_a_manger_notifications/" class="project" target="_blank"&gt;</p>
+<p class="p1"><span class="Apple-converted-space">            </span>&lt;div class="project-image"&gt;</p>
+<p class="p1"><span class="Apple-converted-space">                </span>&lt;svg class="logo" viewBox="0 0 200 80" xmlns="http://www.w3.org/2000/svg"&gt;</p>
+<p class="p1"><span class="Apple-converted-space">                    </span>&lt;rect x="10" y="15" width="180" height="50" rx="25" fill="#8B0000"/&gt;</p>
+<p class="p1"><span class="Apple-converted-space">                    </span>&lt;text x="100" y="50" font-family="Arial, sans-serif" font-size="24" font-weight="bold" fill="white" text-anchor="middle"&gt;Pret A Manger&lt;/text&gt;</p>
+<p class="p1"><span class="Apple-converted-space">                </span>&lt;/svg&gt;</p>
+<p class="p1"><span class="Apple-converted-space">            </span>&lt;/div&gt;</p>
+<p class="p1"><span class="Apple-converted-space">            </span>&lt;div class="project-title"&gt;Pret-A-Manger Competitive Analysis&lt;/div&gt;</p>
+<p class="p1"><span class="Apple-converted-space">        </span>&lt;/a&gt;</p>
+<p class="p1"><span class="Apple-converted-space">    </span>&lt;/div&gt;</p>
+<p class="p1">&lt;/body&gt;</p>
+<p class="p1">&lt;/html&gt;</p>
+</body>
+</html>
